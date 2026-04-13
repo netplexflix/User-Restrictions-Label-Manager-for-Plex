@@ -94,9 +94,10 @@ The script will now ask you
 > Otherwise all Movies and/or TV Shows with that label will be hidden from your users as well. 
 
 > [!IMPORTANT]
-> Unfortunately collections pinned to Home are visible to ALL users, regardless of these exclusion labels.
-> This has been a bug (or feature..?) in Plex for a long time.
-> Until/Unless Plex fixes this, your users will have to go to the collections tab to find their exclusive collection.
+> ~~Unfortunately collections pinned to Home are visible to ALL users, regardless of these exclusion labels.~~ <br>
+> ~~This has been a bug (or feature..?) in Plex for a long time.~~ <br>
+> ~~Until/Unless Plex fixes this, your users will have to go to the collections tab to find their exclusive collection.~~ <br>
+> Fixed with PMS 1.43.1.10576
 
 
 
@@ -104,7 +105,6 @@ The script will now ask you
 ---
 
 ### ⚠️ Need Help or have Feedback?
-- Open an [Issue](https://github.com/netplexflix/User-Restrictions-Label-Manager-for-Plex/issues) on GitHub
 - Join our [Discord](https://discord.gg/VBNUJd7tx3)
 
 ---

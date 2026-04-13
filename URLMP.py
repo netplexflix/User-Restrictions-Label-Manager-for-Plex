@@ -8,6 +8,8 @@ import requests
 import xml.etree.ElementTree as ET
 from urllib.parse import quote
 
+VERSION= "2026.04.12"
+
 # Configuration
 PLEX_TOKEN = "YOUR_PLEX_TOKEN"
 
@@ -23,7 +25,7 @@ def get_users():
         for user_elem in root.findall('User'):
             users.append({
                 'id': user_elem.get('id'),
-                'username': user_elem.get('username').lower(),
+                'username': (user_elem.get('username') or user_elem.get('title') or '').lower(),
                 'title': user_elem.get('title'),
                 'moviesFilter': user_elem.get('filterMovies', ''),
                 'televisionFilter': user_elem.get('filterTelevision', '')
